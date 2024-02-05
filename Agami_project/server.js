@@ -29,6 +29,7 @@ app.use('/employee',employeeRoutes);
 app.use('/manager',managerRoutes);
 app.use('/registermanager',registerManagerRoutes);
 app.use('/registeremployee',registerEmployeeRoutes );
+app.use('/data')
 
 //server is works
 app.listen(PORT ,()=>{
